@@ -19,6 +19,7 @@ public class Line extends PApplet{
         fill(130,65,200);
         stroke(200,235,100);
         circle(x,y,150);
-         x=x+1;
+        x=x+1;
+        if(x == 640)x = 0;
     }
 }
