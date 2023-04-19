@@ -13,5 +13,6 @@ public class Line extends PApplet{
       ellipse(150,200,50,50);
       ellipse(250,200,50,50);
       triangle(200,230,180,240,220,240,);
+      rect(150,250,100,20);
     }
 }
