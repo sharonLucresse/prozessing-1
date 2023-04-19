@@ -12,7 +12,9 @@ public class Line extends PApplet{
     public void draw(){
       ellipse(150,200,50,50);
       ellipse(250,200,50,50);
-      triangle(200,230,180,240,220,240,);
+      triangle(200,230,180,240,220,240);
+      stroke(250,0,0);
+      fill(0,150,0);
       rect(150,250,100,20);
     }
 }
